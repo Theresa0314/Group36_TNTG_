@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "949542418700",
+    "project_id": "the-next-telegram-b1462",
+    "storage_bucket": "the-next-telegram-b1462.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:949542418700:android:480115b8750183d6a7f129",
+        "android_client_info": {
+          "package_name": "com.mobdeve.group36"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "949542418700-e7cfq47qai5l1hkqmbcuqb0ir8sku0pv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_8hwOEG3fy5rIHxaH9047IL3cMGpnltw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "949542418700-e7cfq47qai5l1hkqmbcuqb0ir8sku0pv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
