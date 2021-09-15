@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/there/Desktop/Group36_TNTG-master/app/src/main/res/drawable/button_bg.xml" value="0.3078125" />
+        <entry key="..\:/Users/there/Desktop/Group36_TNTG-master/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3828125" />
+        <entry key="..\:/Users/there/Desktop/Group36_TNTG-master/app/src/main/res/layout/activity_message.xml" value="0.3203125" />
+        <entry key="..\:/Users/there/Desktop/Group36_TNTG-master/app/src/main/res/layout/chat_receive.xml" value="0.3203125" />
+        <entry key="..\:/Users/there/Desktop/Group36_TNTG-master/app/src/main/res/layout/chat_sent.xml" value="0.3203125" />
+        <entry key="..\:/Users/there/Desktop/Group36_TNTG-master/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.3828125" />
+        <entry key="..\:/Users/there/Desktop/Group36_TNTG-master/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.3828125" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
