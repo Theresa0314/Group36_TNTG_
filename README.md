@@ -13,11 +13,10 @@ Accomplished Features:
 8. Search Users
 9. Add Profile Photo
 10. Realtime updating of Firebase
+11. Chat System
+12. Offline/Online Indicator
+13. View Other Profile
+14. Seen Indicator
 
-
-To Accomplish:
-1. Chat System
-2. Offline/Online Indicator
-3. Seen Indicator
-4. View Other Profile
-5. Notification
+Missing:
+1. Notification
