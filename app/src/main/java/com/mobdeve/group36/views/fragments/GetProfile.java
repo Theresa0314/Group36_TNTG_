@@ -12,8 +12,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import com.bumptech.glide.Glide;
-import com.mobdeve.group36.R;
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment;
+import com.mobdeve.group36.R;
 
 import java.util.Objects;
 

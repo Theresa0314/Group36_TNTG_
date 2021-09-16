@@ -16,11 +16,11 @@ import androidx.recyclerview.widget.DividerItemDecoration;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.google.firebase.database.DataSnapshot;
 import com.mobdeve.group36.Data.model.User;
 import com.mobdeve.group36.Model.DatabaseModel;
 import com.mobdeve.group36.R;
 import com.mobdeve.group36.views.adapters.UserAdapter;
-import com.google.firebase.database.DataSnapshot;
 
 import java.util.ArrayList;
 

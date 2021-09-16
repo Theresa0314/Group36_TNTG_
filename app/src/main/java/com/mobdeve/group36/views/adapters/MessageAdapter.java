@@ -7,6 +7,7 @@ import android.content.DialogInterface;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -23,10 +24,12 @@ import com.google.firebase.database.Query;
 import com.google.firebase.database.ValueEventListener;
 import com.mobdeve.group36.Data.model.Chat;
 import com.mobdeve.group36.R;
+import com.squareup.picasso.Picasso;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.HashMap;
 import java.util.TimeZone;
 
 public class MessageAdapter extends RecyclerView.Adapter<MessageAdapter.MessageHolder> {
@@ -62,9 +65,26 @@ public class MessageAdapter extends RecyclerView.Adapter<MessageAdapter.MessageH
         Chat chats = chatArrayList.get(position);
         String message = chats.getMessage();
         String timeStamp = chats.getTimestamp();
+        String type = chats.getType();
+
+
         boolean isSeen = chats.getSeen();
         long intTimeStamp = Long.parseLong(timeStamp);
         String time_msg_received = timeStampConversionToTime(intTimeStamp);
+
+        if(type.equals("text")){
+            //text message
+            holder.tv_msg.setVisibility(View.VISIBLE);
+            holder.iv_msg.setVisibility(View.GONE);
+            holder.tv_msg.setText(message);
+        }
+        else{
+            holder.tv_msg.setVisibility(View.GONE);
+            holder.iv_msg.setVisibility(View.VISIBLE);
+
+            Picasso.get().load(message).placeholder(R.drawable.ic_image_black).into(holder.iv_msg);
+        }
+
         holder.tv_time.setText(time_msg_received);
         holder.tv_msg.setText(message);
 
@@ -158,6 +178,7 @@ public class MessageAdapter extends RecyclerView.Adapter<MessageAdapter.MessageH
     }
 
     public class MessageHolder extends RecyclerView.ViewHolder {
+        ImageView iv_msg;
         TextView tv_msg;
         TextView tv_time;
         TextView tv_seen;
@@ -168,6 +189,7 @@ public class MessageAdapter extends RecyclerView.Adapter<MessageAdapter.MessageH
             tv_msg = itemView.findViewById(R.id.tv_chat_received);
             tv_time = itemView.findViewById(R.id.tv_chat_time_received);
             tv_seen = itemView.findViewById(R.id.tv_seen);
+            iv_msg = itemView.findViewById(R.id.iv_message);
             rl_message_layout = itemView.findViewById(R.id.rl_message_layout);
         }
     }

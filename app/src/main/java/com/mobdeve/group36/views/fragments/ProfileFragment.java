@@ -23,9 +23,6 @@ import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
 import com.bumptech.glide.Glide;
-import com.mobdeve.group36.Data.model.User;
-import com.mobdeve.group36.Model.DatabaseModel;
-import com.mobdeve.group36.R;
 import com.google.android.gms.tasks.Continuation;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
@@ -34,6 +31,9 @@ import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.StorageTask;
 import com.google.firebase.storage.UploadTask;
+import com.mobdeve.group36.Data.model.User;
+import com.mobdeve.group36.Model.DatabaseModel;
+import com.mobdeve.group36.R;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;

@@ -16,11 +16,11 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.mobdeve.group36.Model.LoginModel;
-import com.mobdeve.group36.R;
 import com.google.firebase.auth.FirebaseAuthInvalidCredentialsException;
 import com.google.firebase.auth.FirebaseAuthInvalidUserException;
 import com.google.firebase.auth.FirebaseUser;
+import com.mobdeve.group36.Model.LoginModel;
+import com.mobdeve.group36.R;
 
 import java.util.Objects;
 

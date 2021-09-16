@@ -167,6 +167,8 @@ public class FirebaseDatabase {
         hashMap.put("message", message);
         hashMap.put("timestamp", timestamp);
         hashMap.put("seen", false);
+        hashMap.put("type", "text");
+
 
         instance.getReference("Chats").push().setValue(hashMap).addOnCompleteListener(new OnCompleteListener<Void>() {
             @Override

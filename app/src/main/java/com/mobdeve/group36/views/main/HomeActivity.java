@@ -16,6 +16,9 @@ import androidx.lifecycle.ViewModelProvider;
 import androidx.viewpager.widget.ViewPager;
 
 import com.bumptech.glide.Glide;
+import com.google.android.material.tabs.TabLayout;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.DataSnapshot;
 import com.mobdeve.group36.Data.model.User;
 import com.mobdeve.group36.Model.DatabaseModel;
 import com.mobdeve.group36.Model.LoginModel;
@@ -24,9 +27,6 @@ import com.mobdeve.group36.views.adapters.ViewPagerAdapter;
 import com.mobdeve.group36.views.fragments.ChatFragment;
 import com.mobdeve.group36.views.fragments.ProfileFragment;
 import com.mobdeve.group36.views.fragments.UserFragment;
-import com.google.android.material.tabs.TabLayout;
-import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.database.DataSnapshot;
 
 import de.hdodenhof.circleimageview.CircleImageView;
 

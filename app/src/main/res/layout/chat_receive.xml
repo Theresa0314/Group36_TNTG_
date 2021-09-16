@@ -16,7 +16,20 @@
         android:padding="14dp"
         android:text="Hi"
         android:textColor="@color/white"
+        android:visibility="gone"
         android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/iv_message"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/chat_received"
+        android:padding="15dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_image_black">
+
+    </ImageView>
 
     <TextView
         android:id="@+id/tv_chat_time_received"
@@ -29,6 +42,7 @@
         android:text="10:01pm"
         android:textColor="@color/white"
         android:textSize="12sp" />
+
 
     <TextView
         android:id="@+id/tv_seen"

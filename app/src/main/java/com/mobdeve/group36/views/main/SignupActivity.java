@@ -15,14 +15,14 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.mobdeve.group36.Model.DatabaseModel;
-import com.mobdeve.group36.Model.SigninModel;
-import com.mobdeve.group36.R;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuthInvalidCredentialsException;
 import com.google.firebase.auth.FirebaseAuthUserCollisionException;
 import com.google.firebase.auth.FirebaseAuthWeakPasswordException;
 import com.google.firebase.auth.FirebaseUser;
+import com.mobdeve.group36.Model.DatabaseModel;
+import com.mobdeve.group36.Model.SigninModel;
+import com.mobdeve.group36.R;
 
 import java.util.Objects;
 
